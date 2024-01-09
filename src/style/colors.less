@@ -1,0 +1,22 @@
+@main :blue;
+@secondary: #5050f8;
+
+@warning: yellow;
+@success: green;
+
+@header: 20px;
+@miniHeader: 16px;
+@text: 12px;
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cube(@size, @color){
+  height: @size;
+  width: @size;
+  background-color:@color
+}
